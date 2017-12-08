@@ -16,6 +16,7 @@ public class Ex1009 {
         double totVend = hp.nextDouble();
         
         double totSal = salFix + totVend*0.15;
+        //No URI, se não tiver esse \n no final do código tem chance de dar errado
         System.out.printf("TOTAL = R$ %.2f\n", totSal);
     }
 }
